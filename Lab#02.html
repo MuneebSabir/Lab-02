@@ -1,0 +1,61 @@
+<html>
+
+<head><h2 align ="center">
+Image Gallery</h2>
+
+</head>
+
+<title>
+Responsive Images
+</title>
+
+<body>
+<style >
+#main {
+    text-align:center;
+    width: 90%;
+    height: 100%;
+
+}
+#secondary>div {display: none;}
+#secondary div:target{display:block;}
+</style>
+
+<body>
+
+<div id="main">
+<div id="secondary">
+<a href="#first"><img src="Images/1.png" width="100" height="100"></a>
+<a href="#second"><img src="Images/2.jpg" width="100" height="100"></a>
+<a href="#third"><img src="Images/3.jpg" width="100" height="100"></a>
+<a href="#fourth"><img src="Images/4.jpg" width="100" height="100"></a>
+
+
+
+<div id="first" style="" width:50% height:50%>
+<img src="Images/1.png" width="60%" ><br>
+<a href="#fourth"><button>Prev</button></a>
+<a href="#second"><button>Next</button></a>
+</div>
+<div id="second">
+<img src="Images/2.jpg" width="60%"><br>
+<a href="#first"><button>Prev</button></a>
+<a href="#third"><button>Next</button></a>
+</div>
+<div id="third">
+<img src="Images/3.jpg" width="60%"><br>
+<a href="#fourth"><button>Prev</button></a>
+<a href="#second"><button>Next</button></a>
+</div>
+<div id="fourth">
+<img src="Images/4.jpg" width="60%"><br>
+<a href="#first"><button>Prev</button></a>
+<a href="#third"><button>Next</button></a>
+</div>
+
+</div>
+</div>
+</body>
+
+
+</html>
